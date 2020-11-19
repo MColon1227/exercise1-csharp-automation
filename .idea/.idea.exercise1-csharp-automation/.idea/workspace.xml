@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dff52c35-2051-4449-a9df-57b882b22f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/exercise1-csharp-automation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/exercise1-csharp-automation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kU1V1HsgMqZhjv3H3fIWTNeiYf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dff52c35-2051-4449-a9df-57b882b22f2f" name="Default Changelist" comment="" />
+      <created>1605740376557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605740376557</updated>
+      <workItem from="1605740385369" duration="488000" />
+      <workItem from="1605741201161" duration="1476000" />
+      <workItem from="1605743117935" duration="1705000" />
+      <workItem from="1605745052748" duration="500000" />
+      <workItem from="1605804296044" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
