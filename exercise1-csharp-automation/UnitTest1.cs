@@ -1,64 +1,158 @@
-using System;
-using System.Diagnostics;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Firefox;
+using System;
+using System.Diagnostics;
 
 namespace exercise1_csharp_automation
 {
-    public class Tests
+  public class WebDriverFactory
+  {
+    public IWebDriver _driver;
+
+    protected WebDriverFactory(BrowserType type)
     {
-        IWebDriver _driver;
-        [SetUp]
-        public void Setup()
-        {
-            //Initialize Chrome driver
-            _driver = new ChromeDriver();
-        }
-
-        [Test]
-        public void Test1()
-        {
-            //Go to "Facebook" homepage
-            _driver.Url = "https://www.facebook.com/";
-
-            //Verify that the following text is displayed
-            String textValidation = _driver.FindElement(By.CssSelector("._8eso")).Text;
-            Assert.IsTrue(textValidation.Contains("Connect with friends and the world around you on Facebook."), textValidation + "does not exist");
-
-            //Click in Create New Account button
-            IWebElement createAccountButton = _driver.FindElement(By.CssSelector("form#u_0_a  a[role='button']"));
-            createAccountButton.Click();
-            
-            //Fill Firstname, Lastname and Mobile Number.
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            IWebElement firstname = _driver.FindElement(By.Id("u_1_b"));
-            firstname.Click();
-            firstname.SendKeys("Marisol");
-            
-            IWebElement lastname = _driver.FindElement(By.Id("u_1_d"));
-            lastname.Click();
-            lastname.SendKeys("Colon");
-
-            IWebElement movileNumber = _driver.FindElement(By.Id("u_1_g"));
-            firstname.Click();
-            firstname.SendKeys("ADDVALUE");
-            movileNumber.SendKeys("2533627171");
-
-            //Assert to validate the text "It’s quick and easy."
-            Assert.IsTrue(_driver.PageSource.Contains("It’s quick and easy."));
-
-            try
-            {
-                _driver.FindElement(By.XPath("//div[text() = 'test-exercise.']"));
-            }
-
-            catch (NoSuchElementException ex)
-            {
-                Debug.WriteLine("ExceptionHandled");
-                Debug.WriteLine(ex.Message);
-            }
-        }
+      _driver = WebDriver(type);
     }
+
+    public enum BrowserType
+    {
+      Chrome,
+      Firefox
+    }
+
+    [TearDown]
+    public void Close()
+    {
+      _driver.Close();
+    }
+
+    public static IWebDriver WebDriver(BrowserType type)
+    {
+      IWebDriver driver = null;
+      switch (type)
+      {
+        case BrowserType.Firefox:
+          driver = FirefoxDriver();
+          break;
+        case BrowserType.Chrome:
+          driver = ChromeDriver();
+          break;
+        default:
+          throw new NotSupportedException();
+      }
+      return driver;
+    }
+
+    private static IWebDriver FirefoxDriver()
+    {
+      Environment.SetEnvironmentVariable("webdriver.gecko.driver", @"C:\Users\marisol.colon\Downloads\geckodriver-v0.28.0-win64\geckodriver.exe");
+      FirefoxOptions options = new FirefoxOptions();
+      IWebDriver driver = new FirefoxDriver(options);
+      return driver;
+
+    }
+
+    private static IWebDriver ChromeDriver()
+    {
+      ChromeOptions options = new ChromeOptions();
+      IWebDriver driver = new ChromeDriver(options);
+      return driver;
+    }
+  }
+
+  class SetMethods
+  {
+    #region FIELDS
+
+    public const string TEST_PAGE = "https://www.google.com/";
+    public const string FACEBOOK = "https://www.facebook.com/";
+
+    public static void EnterText(IWebDriver _driver, string element, string value, string elementtype)
+    {
+      if (elementtype == "Id")
+        _driver.FindElement(By.Id(element)).SendKeys(value);
+      if (elementtype == "Name")
+        _driver.FindElement(By.Name(element)).SendKeys(value);
+      if (elementtype == "CssSelector")
+        _driver.FindElement(By.CssSelector(element)).Click();
+
+      Console.WriteLine(value);
+
+    }
+
+    public static void Click(IWebDriver _driver, string element, string elementtype)
+    {
+      if (elementtype == "Id")
+        _driver.FindElement(By.Id(element)).Click();
+      if (elementtype == "CssSelector")
+        _driver.FindElement(By.CssSelector(element)).Click();
+      if (elementtype == "Name")
+        _driver.FindElement(By.Name(element)).Click();
+    }
+
+    #endregion
+
+  }
+
+  [TestFixture(BrowserType.Chrome)]
+  [TestFixture(BrowserType.Firefox)]
+
+  public class Tests : WebDriverFactory
+  {
+    
+
+    public Tests(BrowserType browser) : base(browser) { }
+
+    [Test]
+    public void Test()
+    {
+
+      //Go to "Facebook" homepage
+      _driver.Navigate().GoToUrl(SetMethods.FACEBOOK);
+
+      //Verify that the following text is displayed, "the UI for the message was changed"
+      String textValidation = _driver.FindElement(By.CssSelector("._8eso")).Text;
+      Assert.IsTrue(textValidation.Contains("Connect with friends and the world around you on Facebook."), textValidation + "does not exist");
+      Console.WriteLine("Successfully passed!");
+
+      //Click in Create New Account button
+      SetMethods.Click(_driver , "form#u_0_a  a[role='button']", "CssSelector");
+
+      //Fill Firstname, Lastname and Mobile Number.
+      _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+
+      SetMethods.Click(_driver, "firstname", "Name");
+      SetMethods.EnterText(_driver, "firstname", "Marisol", "Name");
+      
+
+      SetMethods.Click(_driver, "lastname", "Name");
+      SetMethods.EnterText(_driver, "lastname", "Colon", "Name");
+
+      SetMethods.EnterText(_driver, "reg_email__", "33-16785915", "Name");
+ 
+      //Add other name
+      SetMethods.Click(_driver, "firstname", "Name");
+      SetMethods.EnterText(_driver, "firstname", "Other-Name", "Name");
+      
+
+      //Assert to validate the text "It’s quick and easy."
+      Assert.IsTrue(_driver.PageSource.Contains("It’s quick and easy."));
+
+      try
+      {
+        _driver.FindElement(By.XPath("//div[text() = 'test-exercise.']"));
+      }
+
+      catch (NoSuchElementException ex)
+      {
+        Debug.WriteLine("ExceptionHandled");
+        Debug.WriteLine(message: ex.Message);
+        Console.WriteLine("Fail!");
+      }
+      _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+    }
+  }
 }
+
