@@ -1313,7 +1313,7 @@
       ]
     },
     "Microsoft.DotNet.InternalAbstractions/1.0.0": {
-      "sha512": "S8f3mnSN4yNYafvMEuZKz3VSSv49BQahI6Ibmx9ryuc+7EQ3QsTt4rSvrazwoX2qcLhkPpDV/wLW7yDK6nyuFA==",
+      "sha512": "AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
       "type": "package",
       "path": "microsoft.dotnet.internalabstractions/1.0.0",
       "files": [
@@ -1346,7 +1346,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -1663,7 +1663,7 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "sn4JwjEN5iNfqc0bd0Qje5oBZBB9wyuNn4GkQvEzfKVnZ3QH0HHoN9exxydlJGptiCMVdAZu7At9TNj0r8Z0yg==",
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -1793,7 +1793,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.3": {
-      "sha512": "MoATFm6YJyk5OdqDdxDWfKe5dkY3Cygu0wrpKPH/LbWtMmSuD/3G/JIInt9sIJN7hKQOFYCIb2UjLc2vO5byQQ==",
+      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "type": "package",
       "path": "newtonsoft.json/10.0.3",
       "hasTools": true,
@@ -1920,7 +1920,7 @@
       ]
     },
     "Selenium.WebDriver/3.141.0": {
-      "sha512": "ymXPJ9zp7KPIV0H6DdI3boIwc46LrEW1T653Ow6OsRbMFgyDcqRCX8JOeYLm68jIq+7rgECLLUXxmAit5TP/Iw==",
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
       "type": "package",
       "path": "selenium.webdriver/3.141.0",
       "files": [
@@ -2212,7 +2212,7 @@
       ]
     },
     "System.ComponentModel.EventBasedAsync/4.3.0": {
-      "sha512": "SXx4bOoSfWE1TIq7RyY7GhIL8W1ueW+xHQApV7bkWs42eDZUwfPgct5tv3jZkWRkvQ8JjWF1ab1d1lFwqYPE+Q==",
+      "sha512": "fCFl8f0XdwA/BuoNrVBB5D0Y48/hv2J+w4xSDdXQitXZsR6UCSOrDVE7TCUraY802ENwcHUnUCv4En8CupDU1g==",
       "type": "package",
       "path": "system.componentmodel.eventbasedasync/4.3.0",
       "files": [
@@ -4506,7 +4506,7 @@
       ]
     },
     "System.Xml.XPath.XmlDocument/4.3.0": {
-      "sha512": "91tvfHWHSrYFPolCwWYqbpo1YaoBUCQ3uNZ/O/zr0ev5BnkoATJoie16ywlMVUaXZtfSfNELxhtG3aqpTfwR4w==",
+      "sha512": "A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "type": "package",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "files": [
@@ -4555,30 +4555,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marisol.colon\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/marisol.colon/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marisol.colon\\Source\\Repos\\exercise1-csharp-automation\\exercise1-csharp-automation\\exercise1-csharp-automation.csproj",
+      "projectUniqueName": "/Users/marisol.colon/RiderProjects/exercise1-csharp-automation/exercise1-csharp-automation/exercise1-csharp-automation.csproj",
       "projectName": "exercise1-csharp-automation",
-      "projectPath": "C:\\Users\\marisol.colon\\Source\\Repos\\exercise1-csharp-automation\\exercise1-csharp-automation\\exercise1-csharp-automation.csproj",
-      "packagesPath": "C:\\Users\\marisol.colon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marisol.colon\\Source\\Repos\\exercise1-csharp-automation\\exercise1-csharp-automation\\obj\\",
+      "projectPath": "/Users/marisol.colon/RiderProjects/exercise1-csharp-automation/exercise1-csharp-automation/exercise1-csharp-automation.csproj",
+      "packagesPath": "/Users/marisol.colon/.nuget/packages/",
+      "outputPath": "/Users/marisol.colon/RiderProjects/exercise1-csharp-automation/exercise1-csharp-automation/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\marisol.colon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/marisol.colon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4637,7 +4635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

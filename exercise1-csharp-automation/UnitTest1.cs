@@ -9,7 +9,7 @@ namespace exercise1_csharp_automation
 {
   public class WebDriverFactory
   {
-    public IWebDriver _driver;
+    public static IWebDriver _driver;
 
     protected WebDriverFactory(BrowserType type)
     {
@@ -47,7 +47,7 @@ namespace exercise1_csharp_automation
 
     private static IWebDriver FirefoxDriver()
     {
-      Environment.SetEnvironmentVariable("webdriver.gecko.driver", @"C:\Users\marisol.colon\Downloads\geckodriver-v0.28.0-win64\geckodriver.exe");
+      Environment.SetEnvironmentVariable("webdriver.gecko.driver", @"C:\Users\marisol.colon\RiderProjects\geckodriver.exe");
       FirefoxOptions options = new FirefoxOptions();
       IWebDriver driver = new FirefoxDriver(options);
       return driver;
@@ -56,6 +56,7 @@ namespace exercise1_csharp_automation
 
     private static IWebDriver ChromeDriver()
     {
+      Environment.SetEnvironmentVariable("webdriver.chrome.driver", @"C:\Users\marisol.colon\RiderProjects\chromedriver.exe");
       ChromeOptions options = new ChromeOptions();
       IWebDriver driver = new ChromeDriver(options);
       return driver;
@@ -118,7 +119,7 @@ namespace exercise1_csharp_automation
       Console.WriteLine("Successfully passed!");
 
       //Click in Create New Account button
-      SetMethods.Click(_driver , "form#u_0_a  a[role='button']", "CssSelector");
+      SetMethods.Click(_driver , "._6ltg a[role='button']", "CssSelector");
 
       //Fill Firstname, Lastname and Mobile Number.
       _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
@@ -135,23 +136,29 @@ namespace exercise1_csharp_automation
       //Add other name
       SetMethods.Click(_driver, "firstname", "Name");
       SetMethods.EnterText(_driver, "firstname", "Other-Name", "Name");
-      
+    }
 
-      //Assert to validate the text "It’s quick and easy."
-      Assert.IsTrue(_driver.PageSource.Contains("It’s quick and easy."));
-
+    [Test]
+    public void Test2()
+    {
       try
       {
-        _driver.FindElement(By.XPath("//div[text() = 'test-exercise.']"));
+        _driver.Navigate().GoToUrl(SetMethods.FACEBOOK);
+        _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+        string elementDoNotExist = _driver.FindElement(By.XPath("//html[@id='facebook']//div[@id='reg_pages_msg']")).Displayed.ToString();
+        if (elementDoNotExist == "Create a Page")
+        {
+          Console.WriteLine("Text: exist");
+        }
+        else
+        {
+          Console.WriteLine("Text: do not exist ");
+        }
       }
-
-      catch (NoSuchElementException ex)
+      catch (Exception e)
       {
-        Debug.WriteLine("ExceptionHandled");
-        Debug.WriteLine(message: ex.Message);
-        Console.WriteLine("Fail!");
+        Console.WriteLine( e.Message );
       }
-      _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
     }
   }
 }

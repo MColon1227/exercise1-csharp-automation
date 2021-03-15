@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff52c35-2051-4449-a9df-57b882b22f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.exercise1-csharp-automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/exercise1-csharp-automation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/exercise1-csharp-automation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/bin/Debug/netcoreapp3.1/exercise1-csharp-automation.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/Debug/netcoreapp3.1/exercise1-csharp-automation.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/exercise1-csharp-automation.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/exercise1-csharp-automation/obj/project.packagespec.json" afterDir="false" />
@@ -22,12 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18FD0280-F595-4534-A864-9C11E9235D85/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/48/8f53c1f4/ChromeDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/869E6C21-96FE-460F-9B92-1C6D00DF784B/c9/4a894057/InvalidOperationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/ff/9e3bb42a/ChromeOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18FD0280-F595-4534-A864-9C11E9235D85/26/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/exercise1-csharp-automation/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/exercise1-csharp-automation/exercise1-csharp-automation.csproj" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1kU1V1HsgMqZhjv3H3fIWTNeiYf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,6 +68,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="024573c6-ea28-4351-9cbc-0e31e1b4f049" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +82,8 @@
       <workItem from="1605743117935" duration="1705000" />
       <workItem from="1605745052748" duration="500000" />
       <workItem from="1605804296044" duration="354000" />
+      <workItem from="1615487631462" duration="1683000" />
+      <workItem from="1615490169096" duration="19893000" />
     </task>
     <servers />
   </component>
@@ -70,6 +92,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
